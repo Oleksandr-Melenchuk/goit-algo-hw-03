@@ -39,5 +39,3 @@ def get_numbers_ticket(min=1, max=1000 , quantity=10):
 
     # Повертає відстортований список
     return sorted(lucky_list)
-
-print(get_numbers_ticket(150,100,10))
