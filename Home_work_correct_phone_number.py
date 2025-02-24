@@ -11,7 +11,7 @@ def normalize_phone(phone_number):
           
           
           # Регулярний вираз для сортування номера
-          pattern = r'\+?\d+'
+          pattern = r'(?<=\+)\d+'
 
           # Відокремлення зайвих символів
           check = re.findall(pattern, phone_number)
