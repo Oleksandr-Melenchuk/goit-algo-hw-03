@@ -29,7 +29,4 @@ def get_days_from_today(date):
     except (AttributeError, TypeError):
         print(" Неправильний тип даних. Дата повинна бути у вигляді рядка('str').")
 
-dic = {21: 12, 12: 2, }
-print(get_days_from_today(dic))
-
 
